@@ -60,6 +60,8 @@ namespace RockPaperScissors
             if (decision == 1)
             {
                 pictureBox1.Visible = true;
+                pictureBox2.Visible = false;
+                pictureBox5.Visible = false;
 
                 if(randomNumber == decision)
                 { 
@@ -82,6 +84,8 @@ namespace RockPaperScissors
             if (decision == 2)
             {
                 pictureBox2.Visible = true;
+                pictureBox5.Visible = false;
+                pictureBox1.Visible = false;
                 if (randomNumber == decision)
                 {
                     winvlose.Text = " Tie ";
@@ -103,6 +107,8 @@ namespace RockPaperScissors
             if (decision == 3)
             {
                 pictureBox5.Visible = true;
+                pictureBox1.Visible = false;
+                pictureBox2.Visible = false;
                 if (randomNumber == decision)
                 {
                     winvlose.Text = " Tie ";

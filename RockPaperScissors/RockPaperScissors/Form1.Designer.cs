@@ -53,7 +53,7 @@
             // 
             // btnRock
             // 
-            this.btnRock.Location = new System.Drawing.Point(80, 303);
+            this.btnRock.Location = new System.Drawing.Point(80, 304);
             this.btnRock.Name = "btnRock";
             this.btnRock.Size = new System.Drawing.Size(103, 48);
             this.btnRock.TabIndex = 0;
